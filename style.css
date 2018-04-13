@@ -1,0 +1,319 @@
+body {
+    width: 765px;
+    height: 720px;
+    margin: auto;
+    background-color: rgba(233,231, 206, 1);
+}
+header{
+    height: 88px;
+    position: relative;
+}
+header .logo {
+    position: absolute;
+    top: 28px;
+    left:50px;
+    margin: 0px;
+    padding: 0px;
+    width: 83px;
+    height: 36px;
+    background-image: url('logo.png');
+    float: left;
+}
+header .phone{
+    width: 276px;
+    height: 90px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('phone.png');
+    float: right;
+    position: relative;
+}
+header .phone p:nth-child(1){
+    top:32px;
+    left: 100px;
+}
+
+header .phone p:nth-child(2){
+    top:46px;
+    left: 120px;
+}
+header .phone p:nth-child(3){
+
+    top:60px;
+    left: 120px;
+
+}
+header .phone p {
+    position: absolute;
+    width: 89px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+    width: 705px;
+}
+main {
+    height: 330px;
+    padding-top: 5px;
+
+}
+
+main .house {
+    width: 393px;
+    height: 298px;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    float: left;
+}
+main .description{
+    width: 306px;
+    float: right;
+    margin: 0px;
+    padding: 20px 35px 0px 0px;
+
+}
+main .description h1{
+    color: rgba(110,107,61,1);;
+    font-family: "Times New Roman";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 0px;
+    padding: 0px 143px 0px 40px;
+}
+main .description h1:first-letter{
+    color: rgba(155,153,133,1);
+}
+main .description p{
+    color: rgba(150,148,115,1);
+    font-family: "Tahoma";
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 13px;
+}
+main .description p a{
+    text-decoration: none;
+    color: rgba(144,170,31,1);
+}
+
+
+.secondPart {
+    height: 207px;
+}
+.secondPart .backGround{
+    height: 198px;
+    width: 704px;
+    background-color: rgba(222,219,187,1);
+    margin: auto;
+    padding: 0px;
+}
+.secondPart .backGround .gallery,
+.secondPart .backGround .offer,
+.secondPart .backGround .service {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 198px;
+    margin: 0px;
+    padding: 0px;
+}
+.secondPart .backGround .gallery{
+    padding: 0px 20px 0px 10px;
+}
+.secondPart .backGround .gallery img{
+    width: 95px;
+    height: 54px;
+}
+.secondPart .backGround .offer{
+    padding: 0px 25px 0px 5px;
+}
+.secondPart .backGround .service{
+    padding: 0px 20px 0px 10px;
+}
+.secondPart .backGround .gallery,
+.secondPart .backGround .offer,
+.secondPart .backGround .service
+{
+    position: relative;
+}
+.secondPart .backGround .gallery:after,
+.secondPart .backGround .offer:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 0px;
+    height: 185px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid rgba(241, 240, 224, 1);
+    border-left: 1px solid rgba(192, 189, 154, 1);
+
+}
+
+
+
+
+
+.secondPart .backGround .gallery h3,
+.secondPart .backGround .offer h3,
+.secondPart .backGround .service h3
+{
+    color: rgba(110,107,61,1);
+    font-family: "Times New Roman";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.secondPart .backGround .gallery h3:first-letter,
+.secondPart .backGround .offer h3:first-letter,
+.secondPart .backGround .service h3:first-letter
+{
+    color: rgba(144, 170, 31, 1);
+}
+.secondPart .backGround .offer span{
+    color: rgba(136,134,101,1);
+    font-family: "Tahoma";
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 14px;
+}
+.secondPart .backGround .offer .lightGreen{
+    color: rgba(144, 170, 31, 1);
+}
+.secondPart .backGround .offer .darkGreen{
+    color: rgba(114, 112, 86, 1);
+}
+
+
+
+
+
+
+.secondPart .backGround .service ul,
+.secondPart .backGround .service ul li a
+{
+    color: rgba(106,104,77,1);
+    font-family: "Tahoma";
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 14px;
+}
+.secondPart .backGround .service p{
+    width: 109px;
+    height: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+}
+
+.secondPart .backGround .service p span{
+    color: rgba(106,104,71,1);
+    font-family: "Tahoma";
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 11px;
+    text-align: left;
+    margin: 0px;
+    padding:0px;
+
+}
+.secondPart .backGround .service p a{
+    color: rgba(134,154,40,1);
+    font-family: "Tahoma";
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 11px;
+    text-align: left;
+    margin: 0px;
+    padding:0px;
+}
+/*
+.__Adipiing_eraes_entstas_iuamagnis_tristique_or {
+  font-size: 11px;
+  font-family: "Tahoma";
+  color: rgb(4, 153, 246);
+  font-weight: bold;
+  line-height: 1.182;
+  text-align: left;
+  position: absolute;
+  left: 540.32px;
+  top: 519.501px;
+  width: 109px;
+  height: 50px;
+  z-index: 25;
+}
+
+*/
+
+
+
+
+
+
+
+.secondPart .backGround .service .eleph{
+    position: absolute;
+    right: -20px;
+    bottom: 0px;
+    width: 133px;
+    height: 158px;
+    margin: 0px;
+    padding: 0px;
+}
+footer .img{
+    float: left;
+    width: 55px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+footer .footRight {
+    position: relative;
+    width: 197px;
+    height: 17px;
+    float: right;
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+}
+footer .footRight p:first-child{
+    color: rgba(110,107,61,1);
+    font-family: "Times New Roman";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 0px;
+    padding: 0px;
+
+}
+footer .footRight p:first-child:first-letter{
+    color: rgba(144,170,31,1);
+}
+footer .footRight p:last-child{
+    color: rgba(150,148,115,1);
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 13px;
+    margin: 0px;
+    padding: 0px;
+
+}
+footer .footRight:before{
+    content:'';
+    position: absolute;
+    top: 0px;
+    left: -77px;
+    width: 77px;
+    height: 67px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('buttelfly.png');
+}
